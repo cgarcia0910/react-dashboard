@@ -1,30 +1,11 @@
-import { useEffect, useState } from "react"
-import { CreateUserRepository } from "../../../infrastructure/repository/user.repository.imp"
-import { getUserPageUseCase } from "../../../application/use-case/get-user-page.use-case"
-import { User } from "../../../domain/model/user"
 import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TablePagination, TableRow } from "@mui/material"
 import { UserInfoCell } from "./UserInfoCell"
 import { RoleCell } from "./RoleCell"
 import { StatusCell } from "./StatusCell"
+import { useUsersTableManager } from "../../../application/hooks/useUsersTableManager"
 
 export function UserTable() {
-    const [page, setPage] = useState<number>(0)
-    const [itemsPerPage, setItemsPerPage] = useState<number>(10)
-    const [data, setData] = useState<Array<User>>([])
-    const [total, setTotal] = useState<number>(0)
-    const fetchPage = async(page: number, perPage: number) => {
-        const repo = CreateUserRepository()
-        const getUserPage = getUserPageUseCase(repo)
-        return getUserPage(page,perPage)
-    }
-    useEffect(() => {
-        const loadPage = async () => {
-            const result = await fetchPage(page + 1,itemsPerPage)
-            setData(result.data)
-            setTotal(result.total)
-        }
-        loadPage()
-    }, [page, itemsPerPage])
+    const { data, total, page, itemsPerPage, setPage, setItemsPerPage } = useUsersTableManager()
 
     const handleChangePage = (_: unknown, newPage: number) => setPage(newPage)
     const handleChangeRowsPerPage = (event: React.ChangeEvent<HTMLInputElement>) => {

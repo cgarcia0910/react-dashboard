@@ -1,4 +1,4 @@
-import { Grid, Typography, Stack, Button, Paper } from "@mui/material";
+import { Grid, Typography, Stack } from "@mui/material";
 import { AppProvider, DashboardLayout } from "@toolpad/core";
 import { KPIProvider } from "../../../../core/application/context/kpi.provider";
 import { KpiWidget } from "../../../../core/delivery/components/Kpi";

@@ -1,4 +1,4 @@
-import { CardContent, Paper, Typography } from "@mui/material";
+import { CardContent, Typography } from "@mui/material";
 import { useKPIs } from "../../application/context/kpi.context";
 import { Kpi } from "../../domain/types/kpi";
 
