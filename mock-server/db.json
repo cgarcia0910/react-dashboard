@@ -1,0 +1,63 @@
+{
+    "$schema": "./node_modules/json-server/schema.json",
+    "users": [
+        { "id": 1, "name": "Juan Pérez", "mail": "juan.perez@example.com", "role": "Admin", "status": "active", "lastActivity": "2026-03-24T08:10:00Z" },
+        { "id": 2, "name": "María García", "mail": "maria.garcia@example.com", "role": "member", "status": "offline", "lastActivity": "2026-03-23T22:15:00Z" },
+        { "id": 3, "name": "Carlos López", "mail": "carlos.lopez@example.com", "role": "viewer", "status": "waiting for response", "lastActivity": "2026-03-24T07:45:00Z" },
+        { "id": 4, "name": "Lucía Fernández", "mail": "lucia.fernandez@example.com", "role": "member", "status": "active", "lastActivity": "2026-03-24T06:30:00Z" },
+        { "id": 5, "name": "Pedro Sánchez", "mail": "pedro.sanchez@example.com", "role": "Admin", "status": "offline", "lastActivity": "2026-03-22T19:20:00Z" },
+        { "id": 6, "name": "Ana Martínez", "mail": "ana.martinez@example.com", "role": "viewer", "status": "active", "lastActivity": "2026-03-24T09:05:00Z" },
+        { "id": 7, "name": "David Rodríguez", "mail": "david.rodriguez@example.com", "role": "member", "status": "waiting for response", "lastActivity": "2026-03-23T21:00:00Z" },
+        { "id": 8, "name": "Laura Gómez", "mail": "laura.gomez@example.com", "role": "viewer", "status": "offline", "lastActivity": "2026-03-21T18:10:00Z" },
+        { "id": 9, "name": "Jorge Díaz", "mail": "jorge.diaz@example.com", "role": "Admin", "status": "active", "lastActivity": "2026-03-24T08:55:00Z" },
+        { "id": 10, "name": "Sofía Ruiz", "mail": "sofia.ruiz@example.com", "role": "member", "status": "waiting for response", "lastActivity": "2026-03-24T07:20:00Z" },
+    
+        { "id": 11, "name": "Miguel Torres", "mail": "miguel.torres@example.com", "role": "viewer", "status": "offline", "lastActivity": "2026-03-20T16:00:00Z" },
+        { "id": 12, "name": "Elena Navarro", "mail": "elena.navarro@example.com", "role": "member", "status": "active", "lastActivity": "2026-03-24T09:15:00Z" },
+        { "id": 13, "name": "Raúl Moreno", "mail": "raul.moreno@example.com", "role": "Admin", "status": "waiting for response", "lastActivity": "2026-03-23T23:10:00Z" },
+        { "id": 14, "name": "Carmen Romero", "mail": "carmen.romero@example.com", "role": "viewer", "status": "active", "lastActivity": "2026-03-24T08:00:00Z" },
+        { "id": 15, "name": "Diego Alonso", "mail": "diego.alonso@example.com", "role": "member", "status": "offline", "lastActivity": "2026-03-22T14:45:00Z" },
+        { "id": 16, "name": "Paula Ortiz", "mail": "paula.ortiz@example.com", "role": "viewer", "status": "waiting for response", "lastActivity": "2026-03-23T19:30:00Z" },
+        { "id": 17, "name": "Alberto Delgado", "mail": "alberto.delgado@example.com", "role": "Admin", "status": "active", "lastActivity": "2026-03-24T09:30:00Z" },
+        { "id": 18, "name": "Sara Castro", "mail": "sara.castro@example.com", "role": "member", "status": "offline", "lastActivity": "2026-03-21T12:25:00Z" },
+        { "id": 19, "name": "Iván Vega", "mail": "ivan.vega@example.com", "role": "viewer", "status": "active", "lastActivity": "2026-03-24T07:55:00Z" },
+        { "id": 20, "name": "Natalia Herrera", "mail": "natalia.herrera@example.com", "role": "member", "status": "waiting for response", "lastActivity": "2026-03-24T06:40:00Z" },
+    
+        { "id": 21, "name": "Rubén León", "mail": "ruben.leon@example.com", "role": "Admin", "status": "offline", "lastActivity": "2026-03-22T20:10:00Z" },
+        { "id": 22, "name": "Marta Campos", "mail": "marta.campos@example.com", "role": "viewer", "status": "active", "lastActivity": "2026-03-24T09:40:00Z" },
+        { "id": 23, "name": "Fernando Gil", "mail": "fernando.gil@example.com", "role": "member", "status": "waiting for response", "lastActivity": "2026-03-23T22:50:00Z" },
+        { "id": 24, "name": "Patricia Ramos", "mail": "patricia.ramos@example.com", "role": "viewer", "status": "offline", "lastActivity": "2026-03-20T10:15:00Z" },
+        { "id": 25, "name": "Hugo Serrano", "mail": "hugo.serrano@example.com", "role": "Admin", "status": "active", "lastActivity": "2026-03-24T08:35:00Z" },
+        { "id": 26, "name": "Cristina Molina", "mail": "cristina.molina@example.com", "role": "member", "status": "active", "lastActivity": "2026-03-24T09:10:00Z" },
+        { "id": 27, "name": "Óscar Suárez", "mail": "oscar.suarez@example.com", "role": "viewer", "status": "waiting for response", "lastActivity": "2026-03-23T18:45:00Z" },
+        { "id": 28, "name": "Beatriz Iglesias", "mail": "beatriz.iglesias@example.com", "role": "member", "status": "offline", "lastActivity": "2026-03-22T11:30:00Z" },
+        { "id": 29, "name": "Adrián Cruz", "mail": "adrian.cruz@example.com", "role": "Admin", "status": "active", "lastActivity": "2026-03-24T07:25:00Z" },
+        { "id": 30, "name": "Clara Vidal", "mail": "clara.vidal@example.com", "role": "viewer", "status": "waiting for response", "lastActivity": "2026-03-24T05:50:00Z" },
+    
+        { "id": 31, "name": "Daniel Reyes", "mail": "daniel.reyes@example.com", "role": "member", "status": "offline", "lastActivity": "2026-03-21T09:10:00Z" },
+        { "id": 32, "name": "Silvia Peña", "mail": "silvia.pena@example.com", "role": "Admin", "status": "active", "lastActivity": "2026-03-24T09:50:00Z" },
+        { "id": 33, "name": "Pablo Núñez", "mail": "pablo.nunez@example.com", "role": "viewer", "status": "active", "lastActivity": "2026-03-24T08:20:00Z" },
+        { "id": 34, "name": "Rosa Lorenzo", "mail": "rosa.lorenzo@example.com", "role": "member", "status": "waiting for response", "lastActivity": "2026-03-23T17:35:00Z" },
+        { "id": 35, "name": "Álvaro Prieto", "mail": "alvaro.prieto@example.com", "role": "Admin", "status": "offline", "lastActivity": "2026-03-22T13:05:00Z" },
+        { "id": 36, "name": "Teresa Aguilar", "mail": "teresa.aguilar@example.com", "role": "viewer", "status": "active", "lastActivity": "2026-03-24T07:10:00Z" },
+        { "id": 37, "name": "Gonzalo Parra", "mail": "gonzalo.parra@example.com", "role": "member", "status": "waiting for response", "lastActivity": "2026-03-23T20:25:00Z" },
+        { "id": 38, "name": "Verónica Santos", "mail": "veronica.santos@example.com", "role": "viewer", "status": "offline", "lastActivity": "2026-03-21T15:55:00Z" },
+        { "id": 39, "name": "Marcos Calvo", "mail": "marcos.calvo@example.com", "role": "Admin", "status": "active", "lastActivity": "2026-03-24T09:00:00Z" },
+        { "id": 40, "name": "Noelia Vega", "mail": "noelia.vega@example.com", "role": "member", "status": "active", "lastActivity": "2026-03-24T08:45:00Z" },
+    
+        { "id": 41, "name": "Andrés Rubio", "mail": "andres.rubio@example.com", "role": "viewer", "status": "waiting for response", "lastActivity": "2026-03-23T16:10:00Z" },
+        { "id": 42, "name": "Irene Ortega", "mail": "irene.ortega@example.com", "role": "member", "status": "offline", "lastActivity": "2026-03-22T08:40:00Z" },
+        { "id": 43, "name": "Sergio Marín", "mail": "sergio.marin@example.com", "role": "Admin", "status": "active", "lastActivity": "2026-03-24T09:55:00Z" },
+        { "id": 44, "name": "Alicia Crespo", "mail": "alicia.crespo@example.com", "role": "viewer", "status": "active", "lastActivity": "2026-03-24T07:35:00Z" },
+        { "id": 45, "name": "Víctor Soler", "mail": "victor.soler@example.com", "role": "member", "status": "waiting for response", "lastActivity": "2026-03-23T19:00:00Z" },
+        { "id": 46, "name": "Julia Ferrer", "mail": "julia.ferrer@example.com", "role": "viewer", "status": "offline", "lastActivity": "2026-03-21T11:20:00Z" },
+        { "id": 47, "name": "Enrique Pardo", "mail": "enrique.pardo@example.com", "role": "Admin", "status": "active", "lastActivity": "2026-03-24T08:05:00Z" },
+        { "id": 48, "name": "Lorena Pastor", "mail": "lorena.pastor@example.com", "role": "member", "status": "active", "lastActivity": "2026-03-24T09:25:00Z" },
+        { "id": 49, "name": "Tomás Ríos", "mail": "tomas.rios@example.com", "role": "viewer", "status": "waiting for response", "lastActivity": "2026-03-23T14:50:00Z" },
+        { "id": 50, "name": "Eva Cabrera", "mail": "eva.cabrera@example.com", "role": "member", "status": "offline", "lastActivity": "2026-03-22T17:15:00Z" }
+      ],
+    "kpis": {
+      "totalMembers": 12,
+      "pendingInvites": 9 
+    }
+  }
