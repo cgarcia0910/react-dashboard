@@ -1,4 +1,4 @@
-import { Avatar, Card, CardContent, Grid, Typography } from "@mui/material"
+import { Avatar, Grid, Typography } from "@mui/material"
 
 type UserInfoCellProps = {
     name: string,
