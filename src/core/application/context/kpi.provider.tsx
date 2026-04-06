@@ -26,14 +26,12 @@ interface Props {
     const [kpis, dispatch] = useReducer(reducer, null);
   
     useEffect(() => {
-      // 🔹 Fetch inicial
       const fetchKPIs = async () => {
         try {
           const res = await fetch("http://localhost:3001/kpis");
           const data: Kpi = await res.json();
           dispatch({ type: "SET_KPIS", payload: data });
         } catch (err) {
-          console.error("Error cargando KPIs:", err);
         }
       };
   
